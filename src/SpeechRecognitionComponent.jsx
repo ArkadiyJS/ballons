@@ -47,6 +47,7 @@ function SpeechRecognitionComponent() {
             <p>Вы сказали: {transcript}</p>
 
             <p>Вес баллона: {value}</p>
+            <button onClick={() => location.reload()}>Перезагрузить</button>
 
         </div>
     );
