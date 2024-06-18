@@ -44,9 +44,9 @@ function SpeechRecognitionComponent() {
     return (
         <div>
             <h1>CO2</h1>
-            <p>Вы сказали: {transcript}</p>
+            <h1>Вы сказали: {transcript}</h1>
 
-            <p>Вес баллона: {value}</p>
+            <h1>Вес баллона: {value}</h1>
             <button onClick={() => location.reload()}>Перезагрузить</button>
 
         </div>
