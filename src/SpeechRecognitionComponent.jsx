@@ -99,17 +99,17 @@ function SpeechRecognitionComponent() {
         { id: 292, value: 35.5 },
         { id: 172, value: 33.6 },
         { id: 291, value: 35.3 },
-        { id: 500, value: 15 },
-        { id: 500, value: 15 },
-        { id: 500, value: 15 },
-        { id: 500, value: 15 },
-        { id: 500, value: 15 },
-        { id: 500, value: 15 },
-        { id: 500, value: 15 },
-        { id: 500, value: 15 },
-        { id: 500, value: 15 },
-        { id: 500, value: 15 },
-        { id: 500, value: 15 },
+        { id: 298, value: 40.2 },
+        { id: 301, value: 39.8 },
+        { id: 306, value: 39.6 },
+        { id: 310, value: 41.9 },
+        { id: 311, value: 42 },
+        { id: 313, value: 34.2 },
+        { id: 321, value: 41 },
+        { id: 324, value: 40.1 },
+        { id: 326, value: 43 },
+        { id: 329, value: 40.6 },
+        { id: 330, value: 15 },
         { id: 500, value: 15 },
         { id: 500, value: 15 },
         { id: 500, value: 15 },
@@ -162,8 +162,8 @@ function SpeechRecognitionComponent() {
             <h1>CO2</h1>
             <p>Вы сказали: {transcript}</p>
 
-            <p >Вес баллона:<p style={{color:`yellow`}}>{value}</p> </p>
-            <p >должен весить: <p style={{color:`green`}}> {value + 13.6 }</p>  </p>
+            <p >Вес баллона:<h1 style={{color:`yellow`}}>{value}</h1> </p>
+            <p >должен весить: <h1 style={{color:`green`}}> {value + 13.6 }</h1>  </p>
             <button onClick={() => location.reload()}>Перезагрузить</button>
 
         </>
