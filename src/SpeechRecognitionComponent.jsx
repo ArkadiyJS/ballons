@@ -160,10 +160,10 @@ function SpeechRecognitionComponent() {
     return (
         <>
             <h1>CO2</h1>
-            <h1>Вы сказали: {transcript}</h1>
+            <p>Вы сказали: {transcript}</p>
 
-            <h1 >Вес баллона:<p style={{color:`yellow`}}>{value}</p> </h1>
-            <h1 >должен весить: <p style={{color:`green`}}> {value + 13.6 }</p>  </h1>
+            <p >Вес баллона:<p style={{color:`yellow`}}>{value}</p> </p>
+            <p >должен весить: <p style={{color:`green`}}> {value + 13.6 }</p>  </p>
             <button onClick={() => location.reload()}>Перезагрузить</button>
 
         </>
