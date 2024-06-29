@@ -158,15 +158,15 @@ function SpeechRecognitionComponent() {
     }, [transcript]);
 
     return (
-        <div>
+        <>
             <h1>CO2</h1>
             <h1>Вы сказали: {transcript}</h1>
 
-            <h1>Вес баллона: {value}</h1>
-            <h1>должен весить:{value + 13.6 }  </h1>
+            <h1 >Вес баллона:<p style={{color:`yellow`}}>{value}</p> </h1>
+            <h1 >должен весить: <p style={{color:`green`}}> {value + 13.6 }</p>  </h1>
             <button onClick={() => location.reload()}>Перезагрузить</button>
 
-        </div>
+        </>
     );
 }
 
