@@ -163,6 +163,7 @@ function SpeechRecognitionComponent() {
             <h1>Вы сказали: {transcript}</h1>
 
             <h1>Вес баллона: {value}</h1>
+            <h1>должен весить:{value + 13.6 }  </h1>
             <button onClick={() => location.reload()}>Перезагрузить</button>
 
         </div>
