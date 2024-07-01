@@ -6,7 +6,7 @@ import { ballons } from './data';
 
 function SpeechRecognitionComponent() {
     const [transcript, setTranscript] = useState('');
-    const [value, setValue] = useState();
+    const [value, setValue] = useState(0);
     const recognitionRef = useRef(null);
 
 
@@ -44,15 +44,15 @@ function SpeechRecognitionComponent() {
     }, [transcript]);
 
     return (
-        <>
+        <div className="App">
             <h1>CO2</h1>
-            <p>Вы сказали: {transcript}</p>
+            <div className='item'>Вы сказали: {transcript}</div>
 
-            <p >Вес баллона:<h1 style={{ color: `yellow` }}>{value}</h1> </p>
-            <p >должен весить: <h1 style={{ color: `green` }}> {value + 13.6}</h1>  </p>
-            <button onClick={() => location.reload()}>Перезагрузить</button>
+            <div className='item'>Вес баллона: <h2 style={{ color: `yellow` }}> {value}</h2> </div>
+            <div className='item'>должен весить: <h2 style={{ color: `green` }}> {value + 13.6}</h2>  </div>
+            <button className="glow-on-hover" type='button' onClick={() => location.reload()}>Перезагрузить</button>
 
-        </>
+        </div>
     );
 }
 
