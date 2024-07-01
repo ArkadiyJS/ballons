@@ -48,8 +48,8 @@ function SpeechRecognitionComponent() {
             <h1>CO2</h1>
             <div className='item'>Вы сказали: {transcript}</div>
 
-            <div className='item'>Вес баллона: <h2 style={{ color: `yellow` }}> {value}</h2> </div>
-            <div className='item'>должен весить: <h2 style={{ color: `green` }}> {value + 13.6}</h2>  </div>
+            <div className='item1'>Вес баллона: <h2 style={{ color: `yellow` }}> {value}</h2> </div>
+            <div className='item2'>должен весить: <h2 style={{ color: `green` }}> {value + 13.6}</h2>  </div>
             <button className="glow-on-hover" type='button' onClick={() => location.reload()}>Перезагрузить</button>
 
         </div>
