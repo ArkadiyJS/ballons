@@ -50,7 +50,7 @@ h2 {
 }
 
 .glow-on-hover {
-  height: 120px;
+  height: 180px;
   width: 100%;
   border: none;
   outline: none;
@@ -87,7 +87,7 @@ h2 {
   background: transparent;
 }
 
-.glow-on-hover:hover:before {
+.glow-on-hover:active:before {
   opacity: 1;
 }
 
