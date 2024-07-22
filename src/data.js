@@ -225,9 +225,13 @@ export const ballons = [
   { id: 295, value: 40.1 },
   { id: 246, value: 40.7 },
   { id: 117, value: 40.7 },
-  { id: 500, value: 15 },
-  { id: 500, value: 15 },
-  { id: 500, value: 15 },
+  { id: 417, value: 33.8 },
+  { id: 465, value: 40.7 },
+  { id: 245, value: 40.2 },
+  { id: 88, value: 39.9 },
+  { id: 224, value: 38.1 },
+  { id: 216, value: 34.9 },
   { id: 500, value: 15 },
   { id: 500, value: 15 },
   { id: 500, value: 15 },]
+
