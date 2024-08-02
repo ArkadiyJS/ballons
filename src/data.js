@@ -240,7 +240,7 @@ export const ballons = [
   { id: 128, value: 42.1 },
   { id: 273, value: 34.7 },
   { id: 332, value: 40.9 },
-  { id: 500, value: 15 },
+  { id: 459, value: 40.5 },
   { id: 500, value: 15 },
   { id: 500, value: 15 },
   { id: 500, value: 15 },
