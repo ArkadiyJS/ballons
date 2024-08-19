@@ -20,7 +20,7 @@ function SpeechRecognitionComponent() {
         }
 
         const recognition = new window.webkitSpeechRecognition();
-        recognition.continuous = true;
+        recognition.continuous = false;
         recognition.lang = 'ru-RU';
 
         recognition.onresult = (event) => {
@@ -38,6 +38,7 @@ function SpeechRecognitionComponent() {
 
         speechSynthesis.cancel();
         const utterence = new SpeechSynthesisUtterance(value)
+
         speechSynthesis.speak(utterence)
 
 
