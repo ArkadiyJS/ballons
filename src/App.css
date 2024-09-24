@@ -48,7 +48,7 @@ h2 {
   margin-left: 10px;
 }
 
-.glow-on-hover {
+/* .glow-on-hover {
   height: 180px;
   width: 100%;
   border: none;
@@ -76,7 +76,7 @@ h2 {
   opacity: 0;
   transition: opacity .3s ease-in-out;
   border-radius: 10px;
-}
+} */
 
 .glow-on-hover:active {
   color: #000
