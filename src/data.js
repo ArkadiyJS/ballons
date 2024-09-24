@@ -269,7 +269,7 @@ export const ballons = [
   { id: 308, value: 39.2 },
   { id: 154, value: 42.9 },
   { id: 132, value: 35.6 },
-  { id: 500, value: 15 },
+  { id: 488, value: 40.5 },
   { id: 500, value: 15 },
   { id: 500, value: 15 },
   { id: 500, value: 15 },
