@@ -39,7 +39,7 @@ function SpeechRecognitionComponent() {
         speechSynthesis.cancel();
         const utterence = new SpeechSynthesisUtterance(value)
 
-        speechSynthesis.speak(utterence)
+        // speechSynthesis.speak(utterence)
 
 
     }, [transcript]);
