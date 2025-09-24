@@ -1,8 +1,8 @@
 export const ballons = [
-  { id: 4, value: 36.1 },
-  { id: `четыре`, value: 36.1 },
+  { id: 4, value: 36.1, years: 25 },
+  { id: `четыре`, value: 36.1, years: 25 },
   { id: `шесть`, value: 40.3 },
-  { id: 6, value: 40.3 },
+  { id: 6, value: 40.3, years: 29 },
   { id: 11, value: 40.1 },
   { id: 12, value: 41 },
   { id: 13, value: 40 },
