@@ -54,7 +54,7 @@ function SpeechRecognitionComponent() {
 
             const sum = years - data
 
-            if (sum >= 1) { return SetColor('green') } else return SetColor('red')
+            if (sum > 1) { return SetColor('green') } else return SetColor('red')
         }
         checkingTheYear()
 
