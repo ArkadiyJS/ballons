@@ -19,6 +19,7 @@ function SpeechRecognitionComponent() {
 
     const recognition = new window.webkitSpeechRecognition();
     recognition.continuous = false;
+
     recognition.lang = "ru-RU";
 
     recognition.onresult = (event) => {
@@ -26,6 +27,7 @@ function SpeechRecognitionComponent() {
       const newTranscript = event.results[resultIndex][0].transcript.trim();
 
       setTranscript(newTranscript.split(" ", 1));
+      recognition.stop();
 
       ballons.find((t) => {
         t.id == newTranscript ? setValue(t.value) : " ";
