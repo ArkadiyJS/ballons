@@ -24,8 +24,8 @@ function SpeechRecognitionComponent() {
     recognition.onresult = (event) => {
       const resultIndex = event.results.length - 1;
       const newTranscript = event.results[resultIndex][0].transcript.trim();
-      console.log(newTranscript);
-      setTranscript(newTranscript);
+
+      setTranscript(newTranscript.split(" ", 1));
 
       ballons.find((t) => {
         t.id == newTranscript ? setValue(t.value) : " ";
