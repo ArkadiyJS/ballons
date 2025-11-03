@@ -23,9 +23,7 @@ function SpeechRecognitionComponent() {
 
     recognition.onresult = (event) => {
       const resultIndex = event.results.length - 1;
-      const newTranscript = event.results[resultIndex][0].transcript
-        .trim()
-        .split(" ", 1);
+      const newTranscript = event.results[resultIndex][0].transcript.trim();
 
       setTranscript(newTranscript.split(" ", 1));
 
